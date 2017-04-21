@@ -1,3 +1,4 @@
+
 <html>
   <body>
     <h1> Tic Tac Toe </h1>
@@ -7,37 +8,37 @@
     <table>
       <tr>
         <form method="POST" action="/1">
-	  <td >  <input type="submit" id="1" value="">   </input>  </td>
+	  <td >  <input type="submit" id="1" value="<%=@@tablero[0][0]%>">   </input>  </td>
 	</form>
         <form method="POST" action="/2">
-          <td>  <input type="submit" id="2" value=""><br> </input>  </td>
+          <td>  <input type="submit" id="2" value="<%=@@tablero[0][1]%>"></input>  </td>
         </form>
         <form method="POST" action="/3">	
-          <td>  <input type="submit" id="3" value=""><br> </input>  </td>
+          <td>  <input type="submit" id="3" value="<%=@@tablero[0][2]%>"></input>  </td>
         </form>      
       </tr>
 
       <tr>
 <form method="POST" action="/4">
-	<td>  <input type="submit" id="4" value=""><br> </input>  </td>
+	<td>  <input type="submit" id="4" value="<%=@@tablero[1][0]%>"><br> </input>  </td>
 </form>
 <form method="POST" action="/5">	
-<td>  <input type="submit" id="5" value=""><br> </input>  </td>
+<td>  <input type="submit" id="5" value="<%=@@tablero[1][1]%>"><br> </input>  </td>
 </form>
 <form method="POST" action="/6">
-	<td>  <input type="submit" id="6" value=""><br> </input>  </td>
+	<td>  <input type="submit" id="6" value="<%=@@tablero[1][2]%>"><br> </input>  </td>
 </form>
       </tr>
 
       <tr>
 <form method="POST" action="/7">
-	<td>  <input type="submit" id="7" value=""><br> </input>  </td>
+	<td>  <input type="submit" id="7" value="<%=@@tablero[2][0]%>"><br> </input>  </td>
 </form> 
 <form method="POST" action="/8">
-	<td>  <input type="submit" id="8" value=""><br> </input>  </td>
+	<td>  <input type="submit" id="8" value="<%=@@tablero[2][1]%>"><br> </input>  </td>
 </form> 
 <form method="POST" action="/9">
-	<td>  <input type="submit" id="9" value=""><br> </input>  </td>
+	<td>  <input type="submit" id="9" value="<%=@@tablero[2][2]%>"><br> </input>  </td>
 </form> 
       </tr>
     </table>
